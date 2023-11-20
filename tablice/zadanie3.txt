@@ -1,0 +1,60 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //////////////////////////////////
+    char tab1[]{"Zwykly napis"};
+    
+    cout << "1.";
+    for(int i = 0; i<12; i++)
+    {
+    cout << tab1[i];
+    }
+    ////////////////////////////////
+    char tab2[]{"”Nie chcieć to gorzej niz nie moc” – anonim"};
+    
+    cout <<endl<< "2.";
+    for(int i = 0; i<50; i++)
+    {
+    cout << tab2[i];
+    }
+    ////////////////////////////////////
+    char tab3[]{"UWAGA!"};
+    
+    cout <<endl<< "3.";
+    cout << tab3[0] << endl;
+    for(int i = 1; i<6; i++)
+    {
+    cout <<"  "<< tab3[i]<< endl;
+    }
+    ///////////////////////////////////////////////
+    char tab4[]{"ZADANIE V"};
+    
+    cout <<endl<< "4.";
+    for(int i = 0; i<9; i++)
+    {
+    cout << tab4[i]<<"  ";
+    }
+    ///////////////////////////////////
+    cout << endl<< "5.";
+    ///////////////////////////////////
+    char tab5[]{"C:Program Files/DELPHI/*.*"};
+    
+    cout <<endl<< "6.";
+    for(int i = 0; i<26; i++)
+    {
+    cout << tab5[i];
+    }
+    //////////////////////////////////////
+     char tab6[]{"/n – nowa linia /t – znak tablulacji // - znaczek / /? – znaczek ?"};
+    
+    cout <<endl<< "7.";
+    for(int i = 0; i<72; i++)
+    {
+    cout << tab6[i];
+    }
+
+    return 0;
+}

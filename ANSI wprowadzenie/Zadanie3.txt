@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+  float a, b, x;
+  cout<<"a = ";
+  cin>>a;
+  cout<<"b = ";
+  cin>>b;
+  
+  x = (float) -b/a;
+  cout<<"x = "<< x;
+  
+  return 0; //Karol Piwowarski
+}

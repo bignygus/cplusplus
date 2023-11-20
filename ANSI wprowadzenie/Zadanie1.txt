@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int s, t;
+    
+    cout << "Podaj s" << endl;
+    cin >> s;
+    cout << "Podaj t" << endl;
+    cin >> t;
+    
+    cout << "V = " << s / t; 
+
+    return 0; // Karol Piwowarski
+}

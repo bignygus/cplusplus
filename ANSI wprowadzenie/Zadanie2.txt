@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int C, K, F, R;
+    
+    cout << "Podaj temperature w stopiach Celsjusza od - 100 do 100" << endl;
+    cin >> C;
+    
+    cout << "Celsjusza: " << C << endl;
+    cout << "Kelwina: " << C + 273.15 << endl;
+    cout << "Farenheit: " << (C * 1.8) + 32 << endl;
+    cout << "Rankine: " << (C + 273.15) * 1.8 << endl;
+    
+    return 0; //Karol Piwowarski
+}

@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int j, k;
+    float u, v, w;
+    
+    cout << "Podaj liczbę całkowitą: ";
+    cin >> j;
+    cout << "Podaj drugą liczbę całkowitą: ";
+    cin >> k;
+
+    cout << "j = " << j << endl;
+    cout << "k = " << k << endl;
+    cout << "j + k = " << j+k << endl;
+    cout << "j - k = " << j-k << endl;
+    cout << "k / j = " << k/j << endl;
+    cout << "k * j = " << k*j << endl;
+    cout << "k % j = " << k%j << endl;
+    cout << "j % k = " << j%k << endl;
+    
+    cout << "Podaj liczbę rzeczywistą: ";
+    cin >> v;
+    cout << "Podaj drugą liczbę rzeczywista: ";
+    cin >> w;
+    cout << "v = " << v << endl;
+    cout << "w = " << w << endl;
+    cout << "v + w = " << v+w << endl;
+    cout << "v - w = " << v-w << endl;
+    cout << "v * w = " << v*w << endl;
+    cout << "v / w = " << v/w << endl;
+    
+    u = v/w;
+    cout << "u = " << u << endl;
+    cout << "v = " << v << endl;
+    cout << "u + v = " << u+v << endl;
+    cout << "u - v = " << u-v << endl;
+    cout << "u / v = " << u*v << endl;
+    cout << "u * v = " << u/v << endl;
+
+    return 0;
+}

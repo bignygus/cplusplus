@@ -1,0 +1,34 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string OR,NAND,NOT,NOR,trojstanowej,bramkiAND,pieciostanowejbramkiOR,trojstanowejbramkiNAND;
+    int a,b,c, wybor;
+    cout<<"Jaka brakmek chcesz zasymulowac?"<<endl<<"1:OR,2:NAND,3:NOT,4:NOR,5:trojstanowej bramki AND,6:pieciostanowej bramki OR,7:trojstanowej bramki NAND"<<endl;
+    cin>>wybor;
+    cout<<"Podaj trzy liczby"<<endl;
+    cout<<"liczba a:";
+    cin>>a;
+    cout<<"liczba b:";
+    cin>>b;
+    cout<<"liczba c:";
+    cin>>c;
+    if (wybor==1)
+    {
+        cout<<"dzila";
+    }
+    
+    
+    
+    return 0;
+}

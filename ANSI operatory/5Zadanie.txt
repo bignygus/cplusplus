@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int w;
+    
+    cout << "Podaj numer dnia tygodnia" << endl;
+    cin >> w;
+    
+    if(w==1){
+        cout << "Poniedziałek";
+    }
+    else if(w==2){
+        cout << "Wtorek";
+    }
+    else if(w==3){
+        cout << "Środa";
+    }
+    else if(w==4){
+        cout << "Czwartek";
+    }
+    else if(w==5){
+        cout << "Piątek";
+    }
+    else if(w==6){
+        cout << "Sobota";
+    }
+    else if(w==7){
+        cout << "Niedziela";
+    }
+    else if(w >= 8){
+        cout << "Podano nieprawidłową liczbę";
+    }
+    return 0;
+}
